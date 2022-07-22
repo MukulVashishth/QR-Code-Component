@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width:350px;
+    margin: 0 auto;
+}
+
+.qrCard {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.qrCard img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 22px 12px;
+}
+
+.text h2 {
+    color : hsl(218, 44%, 22%);
+    padding-bottom: 10px;
+}
+
+.text p {
+    color : hsl(220, 15%, 55%);
+}
